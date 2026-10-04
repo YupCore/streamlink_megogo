@@ -1,4 +1,4 @@
-### Streamlink Megogo plugin
+# Streamlink Megogo plugin
 
 ---
 
@@ -12,9 +12,9 @@
 
 ---
 
-### Questions
+# Questions
 
-## How to get cookies?
+### How to get cookies?
 I recommend using [this extension](https://chromewebstore.google.com/detail/get-cookiestxt-locally/cclelndahbckbenkjhflpdbgdldlbecc?hl=en), as it's very straightforward.
 Download it, open megogo.net(with your account logged on) and then open the extension, click "Export As"(not export all!) and now you have your cookies.
 Place the .txt file wherever and just pass the path to it via --http-cookies-file argument.
@@ -23,7 +23,7 @@ Place the .txt file wherever and just pass the path to it via --http-cookies-fil
 
 Read the errors, if it mentions anything about authentication failure, your cookies probably expired — redownload them.
 
-## How do I know if this is safe?
+### How do I know if this is safe?
 Open the file, read the code, or send it to an LLM(like chatgpt or claude) and ask about it if you're unsure.
 
 ---

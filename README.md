@@ -1,7 +1,5 @@
 # Streamlink Megogo plugin
 
----
-
 ### Setup:
 - Download [the plugin file](https://github.com/YupCore/streamlink_megogo/blob/main/megogo.py).
 - Clone [streamlink](https://github.com/streamlink/streamlink) via git (or download via Code->Zip, then extract to a directory).
@@ -9,8 +7,6 @@
 - Copy the plugin .py file into `src/streamlink/plugins/`(this will sideload the plugin).
 - Go back to the root of your directory(leave `src/streamlink/plugins/` chain).
 - Open your command line utility of choice & run streamlink via `python -m streamlink_cli "your_megogo_link" best --http-cookies-file "your_megogo_cookies.txt"` command.
-
----
 
 # Questions
 
